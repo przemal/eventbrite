@@ -8,11 +8,11 @@ Requirements
 
 Authentication tokens
 ---------------------
-Script needs `application <https://www.eventbrite.com/api/key/>` and `user <https://www.eventbrite.com/userkeyapi/>`
+Script needs `application <https://www.eventbrite.com/api/key/>`_ and `user <https://www.eventbrite.com/userkeyapi/>`_
 tokens to work.
 
 Before posting new events you need to set organizer name in your
-`profile <http://www.eventbrite.com/myprofile>` if you haven't done that already.
+`profile <http://www.eventbrite.com/myprofile>`_ if you haven't done that already.
 
 For more details, please go to:
 `<http://developer.eventbrite.com/doc/authentication>`
@@ -24,7 +24,7 @@ Command examples
 .. code-block:: bash
 
     $ ./eventbrite.py -h
-    $ ./eventbrite.py create --title 'Event title' --desc 'Event description' --date '2013-11-11 16:16'
+    $ ./eventbrite.py create --title 'Event title' --desc 'Event description' --date '2013-11-11 16:16' --enddate '2013-11-11 17:16'
     $ ./eventbrite.py update --id 1234 --desc 'Event description update'
     $ ./eventbrite.py details --id 9509327655
 
